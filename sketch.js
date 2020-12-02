@@ -58,14 +58,14 @@ function setup(){
     ground2 = new Ground(900,200,200,10)
    
 
-    bird = new Bird(200,205);
+    bird = new Bird(180,205);
 
     //log6 = new Log(230,180,80, PI/2);
     slingshot = new SlingShot(bird.body,{x:200, y:200});
 }
 
 function draw(){
-    background(183, 255, 3);
+    background("lightblue");
     Engine.update(engine);
     strokeWeight(4);
       block1.display();
